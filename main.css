@@ -1,18 +1,79 @@
-body{
-	background-image:  url(../img/bird.gif), url(../img/center.jpg), url(../img/baloon.jpg),  url(../img/background.jpg);
-	background-repeat: no-repeat;
-	background-size:30%,50%,20%, cover;
-	background-attachment: fixed;
-	background-position: right 10%,center 5%, left 10%,center;
 
+
+body{
+	background-color: #bfbfbf;
+	height: 1000px;
+}
+header{
+	background-color: rgb(198,143,35);
+	height: 50px;
+	font-size: 14px;
+	list-style: none;
 	
 }
+
+.intro{
+	padding-right: 100px;
+}
+
+.intro ul{
+	float: right;
+}
+.intro ul li{
+   list-style: none;
+   color: black;
+}
+.intro ul li a{
+	padding-left: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 13px;
+	color:black;
+
+}
+
 .cont{
-	width: 400px;
-	background-color: rgba(0,0,0,0,0.5);
-	min-height: 1000px;
-	padding: 30px;
+	background-color: white;
+	height: 800px;
+	padding: 20px;
 	margin: 0 auto;
+	width: 1000px;
+}
+.Akira{
+	padding: 0px 0px 0px 60px;
+}
+.it{
+	float: left;
+	padding: 40px;
+}
+.net img{
+	padding: 30px;
+	border-left: 50px;
+
+}
+.intro{
+	list-style: none;
+	margin:0 auto;
+	padding:0px 0px 20px 700px;
+
+}
+.intro ul{
+	float: right;
 	color: black;
-	font-size: 20px;
+
+}
+.intro li{
+	float:left;
+	padding-right: 5px;
+	color:black;
+}
+.Akira{
+	float: left;
+}
+footer{
+	text-align: center;
+	color:grey;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
